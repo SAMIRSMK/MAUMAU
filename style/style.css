@@ -234,23 +234,12 @@ to {
 }
 
 }
-@keyframes rolagem-Z {
-from {
-  opacity: 0;
- transform: translateZ(-100vw);
-}
-
-to {
-  opacity: 1;
-  transform: translateZ(0);
-}
 
 /* curso  */
 
-}
 .plano {
   background-image: url(../img/paisagem-4.jpg);
-  height: 1000;
+  min-height: 500px;
 }
 .plano img {
     display: block;
@@ -263,10 +252,92 @@ to {
   flex-wrap: wrap;
   max-width: 900px;
   margin: 0 auto;
+  min-height: 500px;
 }
-.conteiner-plano div {
-  width: 150px;
+.conteiner-plano > div {
+  width: 170px;
+  border-radius: 5px;
   padding: 20px;
   margin: 20px;
   background-color: #363636;
 }
+.conteiner-plano div h2 {
+  color: aliceblue;
+  text-transform: capitalize;
+  text-align: center;
+}
+.conteiner-plano div span {
+  color: aliceblue;
+  font-style: italic;
+  text-align: center;
+  display: block;
+  font-size: 1.3em;
+}
+.conteiner-plano div li {
+  color: aliceblue;
+  margin: 10px;
+}
+.conteiner-plano div li::after {
+  content: " " ;
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: blue;
+  margin-top: 10px;
+}
+
+/* curso */
+
+.curso {
+  background-color: #363636;
+}
+.conteiner-curso {
+  padding: 20px 0;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.conteiner-curso > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  padding: 30px ;
+  font-size: 14px;
+  background-color: #525252;
+  border-left: 3px solid blue;
+}
+.conteiner-curso > div:hover {
+  background-color: blue;
+  transition: 2s;
+}
+.conteiner-curso div img{
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+}
+.conteiner-curso div h2{
+  color: aliceblue;
+
+}
+.conteiner-curso div p{
+  color: aliceblue;
+  margin-top: 20px;
+  line-height: 1.4em;
+}
+
+footer {
+  background-color: #363636;
+  padding: 35px;
+  text-align: center;
+  border-top: 3px solid blue;
+}
+footer h1, footer p {
+  color: aliceblue;
+}
+
