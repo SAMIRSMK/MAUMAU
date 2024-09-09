@@ -203,7 +203,7 @@ animation: rolagem-d 10s ease-in-out;
   animation: rolagem-e 10s ease-in-out;
 }
 .sobre-item3 {
-  background-image: url(../img/Paisagem-3.jpg);
+  background-image: url(../img/paisagem-3.jpg);
   background-position: bottom;
   border-left: 2px solid blue;
   animation: rolagem-d 10s ease-in-out;
