@@ -255,10 +255,10 @@ to {
   min-height: 500px;
 }
 .conteiner-plano > div {
-  width: 170px;
+  width: 160px;
   border-radius: 5px;
   padding: 20px;
-  margin: 20px;
+  margin: 10px;
   background-color: #363636;
 }
 .conteiner-plano div h2 {
