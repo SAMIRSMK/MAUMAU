@@ -257,9 +257,14 @@ to {
 .conteiner-plano > div {
   width: 160px;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   margin: 10px;
   background-color: #363636;
+  box-shadow: 7px 5px 20px 0px rgba(0, 0, 0, 0.304);
+}
+.conteiner-plano > div:hover {
+  transition: 1s;
+  opacity: 0.7;
 }
 .conteiner-plano div h2 {
   color: aliceblue;
@@ -284,6 +289,15 @@ to {
   height: 3px;
   background-color: blue;
   margin-top: 10px;
+}
+.conteiner-plano div a {
+  background-color: blue;
+  display: block;
+  margin: 0 -20px ;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px;
+  border-radius: 0 0 5px 5px ;
 }
 
 /* curso */
