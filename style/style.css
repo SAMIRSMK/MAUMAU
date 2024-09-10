@@ -292,6 +292,7 @@ to {
 }
 .conteiner-plano div a {
   background-color: blue;
+  color: aliceblue;
   display: block;
   margin: 0 -20px ;
   text-align: center;
