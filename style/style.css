@@ -195,21 +195,21 @@ animation-range: cover 0% cover 30%;
   background-color: blue;
 }
 .sobre-item1 {
-animation: rolagem-d 10s ease-in-out;
+animation: rolagem-d 1s ease-in-out;
 }
 .sobre-item2 {
   background-image: url(../img/paisagem-2.jpg);
   border-right: 2px solid blue;
-  animation: rolagem-e 10s ease-in-out;
+  animation: rolagem-e 1s ease-in-out;
 }
 .sobre-item3 {
   background-image: url(../img/paisagem-3.jpg);
   background-position: bottom;
   border-left: 2px solid blue;
-  animation: rolagem-d 10s ease-in-out;
+  animation: rolagem-d 1s ease-in-out;
 }
 .sobre-item4 {
-  animation: rolagem-e 10s ease-in-out;
+  animation: rolagem-e 1s ease-in-out;
 }
 @keyframes rolagem-d {
 from {
